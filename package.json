@@ -12,9 +12,7 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint"
   },
-  "dependencies": {
-    "nuxt": "^1.0.0-rc11"
-  },
+  "dependencies": {},
   "devDependencies": {
     "axios": "^0.17.1",
     "babel-eslint": "^7.2.3",
@@ -27,8 +25,9 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
     "eslint-plugin-vue": "^9.20.1",
+    "nuxt": "^1.4.5",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
-    "vuetify": "^0.17.5"
+    "vuetify": "^0.17.7"
   }
 }

@@ -1,12 +1,19 @@
 <template>
-  <div>
-    <nuxt/>
-  </div>
+  <section class="container">
+    <div>
+      <ToolBar />
+      <nuxt/>
+    </div>
+  </section>
 </template>
 
 <script>
+import ToolBar from '~/components/ToolBar.vue'
 export default {
-  name: 'DefaultLayout',
+  components: {
+    ToolBar
+  },
+  name: 'layoutComponents'
 }
 </script>
 
